@@ -7,94 +7,7 @@ import platform
 app = Flask(__name__)
 #公用配置,个人配置可以在父类基础上丰富
 class Base:
-    #kingsley用户名
-    USERNAME = 'projecttest@rnbtech.com.hk'
-    #kingsley密码
-    PASSWORD = 'h=Lp4U8+Lp'
-    #当前PC下载目录
-    DOWNLOAD_DIR = r'C:\Users\%s\Downloads' % getpass.getuser()
-    #user
-    USER = "{}{}{}".format(platform.system(), platform.win32_ver()[0], getpass.getuser())
-    #服务器ip，默认为国服
-    SERVERIP = 'beopdemo.smartbeop.com'
-    #SERVERIP = "192.168.1.208"
-    #SERVERIP = 'beopdemo.rnbtech.com.hk'
-
-    #用例运行时间
-    RUNTIME = [7,21]
-    #condition,为1则是运作模式，为0是调试模式
-    CONDITION = 0
-    #线程的个数
-    THREADNUMBER=4
-    #浏览器
-    BROWSER = 'chrome'
-
-    #浏览器对应类名
-    BROWSER_CONFIG = {
-        'default': 'Chrome',
-        'chrome': 'Chrome',
-        'firefox': 'Firefox',
-        'ie': 'Ie',
-        'safari': 'Safari',
-        'edge': 'Edge'
-
-    }
-    #demo服务器ip，用于特定case专测demo或208
-    # SERVERIPDEMO = 'beopdemo.rnbtech.com.hk'
-    #208服务器ip，用于特定case专测demo或208
-    SERVER208 = '192.168.1.208'
-
-    MACHINE = '<strong>{} {} {} {}</strong>'.format(platform.system(), platform.win32_ver()[0], platform.win32_ver()[1],platform.win32_ver()[-1])
-    BROWSER_VERSION = []
-
-    BROWSER_LIST = ['Chrome']#, 'Firefox'
-    #自动化测试报告收件人邮箱
-    PUBLIC_EMAILS = ['kingsley.he@rnbtech.com.hk',
-                    'irene.shen@rnbtech.com.hk',
-                    '523705863@qq.com','343942059@qq.com','Angelia.chen@rnbtech.com.hk',
-                     "sophia.zhao@rnbtech.com.hk",]#'12343403@qq.com','rikan.li@rnbtech.com.hk'，'kruz.qian@rnbtech.com.hk',
-
-    #测试组邮箱
-    TEST_GROUP_EMAILS = ["Angelia.chen@rnbtech.com.hk","1281056983@qq.com","Kirry.gao@rnbtech.com.hk","523705863@qq.com","kingsley.he@rnbtech.com.hk"]
-    #TEST_GROUP_EMAILS = ["Kirry.gao@rnbtech.com.hk"]
-
-
-    POP3_SERVER = 'pop3.rnbtech.com.hk'
-
-    MEMCACHE_LOCAL = ['192.168.1.223']
-
-    BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-
-    MEMCACHE_LOG = os.path.join(BASE_DIR, 'Log/memcacheLog.txt')
-
-    WEBDRIVERTOOLS_LOG = os.path.join(BASE_DIR, 'Log/WebDriverLog.txt')
-
-    LOGINTOOLS_LOG = os.path.join(BASE_DIR, 'Log/LoginTools.txt')
-
-    OTHERTOOLS_LOG = os.path.join(BASE_DIR, 'Log/OtherTools.txt')
-
-    DRIVER_PATH = os.path.join(BASE_DIR, 'Driver/chromedriver.exe')
-
-    CSS_ERROR = os.path.join(BASE_DIR, 'Log/cssError.txt')
-
-    CSS_PAGE = os.path.join(BASE_DIR, 'Pages')
-
-    PROJECTTEST_ACCOUNT = 'projecttest@rnbtech.com.hk'
-
-    PROJECTTEST_PWD = 'h=Lp4U8+Lp'
-    MAIL_SERVER = 'smtp.rnbtech.com.hk'
-
-    SERVER_LIST = {
-                    '192.168.1.208': '测试服务器',
-                    'beop.rnbtech.com.hk': '国服',
-                    'beopdemo.smartbeop.com': 'demo服务器',
-                    'beopdemo.rnbtech.com.hk:5000': 'demo备用服务器'
-                }
-    MONGO_USERNAME = 'beopweb'
-
-    MONGO_PASSWORD = 'RNB.beop-2013'
-
-    MONGO_ADDR = '192.168.1.208:27017'
+    pass
 
 
     #所有case列表
@@ -218,56 +131,19 @@ class Base:
                         ]
 
 
-#帮主配置
-class kingsley(Base):
-    USERNAME = 'kingsley.he@rnbtech.com.hk'
-    PASSWORD = 'king1103beop'
 
-#赵庆凯配置
-class sophia(Base):
-    USERNAME = "sophia.zhao@rnbtech.com.hk"
-    PASSWORD = "zhao_123456"
-
-
-#吴冉旭配置
-class woody(Base):
-    USERNAME = "woody.wu@rnbtech.com.hk"
-    PASSWORD = "wuranxu312"
-
-
-#陈婷婷配置
-class angelia(Base):
-    USERNAME = "woody.wu@rnbtech.com.hk"
-    PASSWORD = "wuranxu312"
-
-
-#woody小号配置
-class tester1(Base):
-    USERNAME = "619434176@qq.com"
-    PASSWORD = "wuranxu312"
-
-#woody小号2配置
-class tester2(Base):
-    USERNAME = "1613687333@qq.com"
-    PASSWORD = "wuranxuA312"
-
-
-#sophia小号配置
 class tester3(Base):
-    USERNAME = 'sophia201552@163.com'
-    PASSWORD = 'zhao_123456'
+    pass
 
 
 
 class tester5(Base):
-    USERNAME = 'projecttest_pwdreset@rnbtech.com.hk'
-    PASSWORD = 'RNB.beop-2013'
+    pass
 
 
 
 class guangming(Base):
-    USERNAME = 'BrightDTM@163.com'
-    PASSWORD = 'BrightDTM2017'
+    pass
 
 #配置集
 user_conf = {
