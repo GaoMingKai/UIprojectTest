@@ -1,0 +1,1541 @@
+
+    <style type="text/css" media="screen">
+        body {
+            font-family: verdana, arial, helvetica, sans-serif;
+        }
+        table {
+            *border-collapse: collapse; /* IE7 and lower */
+            border-spacing: 0;
+            width: 100%;
+        }
+
+        .bordered {
+            border: solid #ccc 1px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-box-shadow: 0 1px 1px #ccc;
+            -moz-box-shadow: 0 1px 1px #ccc;
+            box-shadow: 0 1px 1px #ccc;
+        }
+
+        .bordered tr:hover {
+            background: #fbf8e9;
+            -o-transition: all 0.1s ease-in-out;
+            -webkit-transition: all 0.1s ease-in-out;
+            -moz-transition: all 0.1s ease-in-out;
+            -ms-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
+        }
+
+        .bordered td, .bordered th {
+            border-left: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .bordered .th {
+            background-color: #dce9f9;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+            background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+            -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+            -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+            box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+            border-top: none;
+            text-shadow: 0 1px 0 rgba(255,255,255,.5);
+        }
+
+        .bordered td:first-child, .bordered th:first-child {
+            border-left: none;
+        }
+
+        .bordered th:first-child {
+            -moz-border-radius: 6px 0 0 0;
+            -webkit-border-radius: 6px 0 0 0;
+            border-radius: 6px 0 0 0;
+        }
+
+        .bordered th:last-child {
+            -moz-border-radius: 0 6px 0 0;
+            -webkit-border-radius: 0 6px 0 0;
+            border-radius: 0 6px 0 0;
+        }
+
+        .bordered th:only-child{
+            -moz-border-radius: 6px 6px 0 0;
+            -webkit-border-radius: 6px 6px 0 0;
+            border-radius: 6px 6px 0 0;
+        }
+
+        .bordered tr:last-child td:first-child {
+            -moz-border-radius: 0 0 0 6px;
+            -webkit-border-radius: 0 0 0 6px;
+            border-radius: 0 0 0 6px;
+        }
+
+        .bordered tr:last-child td:last-child {
+            -moz-border-radius: 0 0 6px 0;
+            -webkit-border-radius: 0 0 6px 0;
+            border-radius: 0 0 6px 0;
+        }
+
+        table {
+            font-size: 100%;
+        }
+
+        pre {
+        }
+
+        /* -- heading ---------------------------------------------------------------------- */
+        h1 {
+            font-size: 16pt;
+            color: gray;
+        }
+
+        .heading {
+            margin-top: 0ex;
+            margin-bottom: 1ex;
+        }
+
+        .heading .attribute {
+            margin-top: 1ex;
+            margin-bottom: 0;
+        }
+
+        .heading .description {
+            margin-top: 4ex;
+            margin-bottom: 6ex;
+        }
+
+        /* -- css div popup ------------------------------------------------------------------------ */
+        a.popup_link {
+        }
+
+        a.popup_link:hover {
+            color: red;
+        }
+
+        .popup_window {
+            display: none;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            /*border: solid #627173 1px; */
+            padding: 10px;
+            background-color: #E6E6D6;
+            font-family: "Lucida Console", "Courier New", Courier, monospace;
+            text-align: left;
+            font-size: 8pt;
+            width: 500px;
+        }
+
+        }
+        /* -- report ------------------------------------------------------------------------ */
+        #show_detail_line {
+            margin-top: 3ex;
+            margin-bottom: 1ex;
+        }
+
+        #result_tabl {
+            width: 80%;
+            border-collapse: collapse;
+            border: 1px solid #777;
+        }
+
+        #header_row {
+            font-weight: bold;
+            color: white;
+            background-color: #777;
+        }
+
+        #result_table td {
+            border: 1px solid #777;
+            padding: 2px;
+        }
+
+        #total_row {
+            font-weight: bold;
+        }
+
+        .passClass {
+            background-color: #6c6;
+        }
+
+        .failClass {
+            background-color: #c60;
+        }
+
+        .errorClass {
+            background-color: #c00;
+        }
+
+        .passCase {
+            color: #6c6;
+        }
+
+        .failCase {
+            color: #c60;
+            font-weight: bold;
+        }
+
+        .errorCase {
+            color: #c00;
+            font-weight: bold;
+        }
+
+        .hiddenRow {
+            display: none;
+        }
+
+        .testcase {
+            margin-left: 2em;
+        }
+
+        /* -- ending ---------------------------------------------------------------------- */
+        #ending {
+        }
+        #describe{
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+<div>
+    <table class="bordered">
+        <tr class="th">
+            <td>用例编号</td>
+            <td>项目名称</td>
+            <td>业务名称</td>
+            <td>通过</td>
+            <td>失败</td>
+            <td style="text-align: center">描述</td>
+            <td>开始时间</td>
+            <td>结束时间</td>
+            <td>消耗时间</td>
+            <td>错误截图</td>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case001</td>
+                    <td>香港华润</td>
+                    <td>数据分析页</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:00:15</td>
+                    <td>21:01:15</td>
+                    <td>60s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case002</td>
+                    <td>深圳华为</td>
+                    <td>系统监控</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:00:15</td>
+                    <td>21:01:43</td>
+                    <td>88s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case003</td>
+                    <td>上海中芯国际</td>
+                    <td>系统监控</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:00:15</td>
+                    <td>21:01:23</td>
+                    <td>68s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case004</td>
+                    <td>不针对项目</td>
+                    <td>用户名检验,并注销用户</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:00:15</td>
+                    <td>21:01:15</td>
+                    <td>60s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case005</td>
+                    <td>上海华为</td>
+                    <td>数据分析:图标</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'quit'",), <traceback object at 0x000000000443B748>)</td>
+                    <td>21:01:15</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:01:15.086566</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case006</td>
+                    <td>不针对项目</td>
+                    <td>批量用户登录:消耗时间</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'FileNotFoundError'>, FileNotFoundError(2, 'No such file or directory'), <traceback object at 0x00000000043F9CC8>)</td>
+                    <td>21:01:15</td>
+                    <td>21:01:15</td>
+                    <td>0s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2016-09-22 11-33-55.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case007</td>
+                    <td>不针对项目</td>
+                    <td>地图加载:红色圆点显示</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'quit'",), <traceback object at 0x0000000004463EC8>)</td>
+                    <td>21:01:16</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:01:16.791664</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2016-09-22 11-33-55.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case008</td>
+                    <td>不针对项目</td>
+                    <td>测试数据分析模块中，在数据组中添加点后图表显示问题</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x0000000004464C48>)</td>
+                    <td>21:01:23</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:01:23.402042</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case009</td>
+                    <td>上海华为项目</td>
+                    <td>测试数据分析各个界面的内容是否丢失</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:01:43</td>
+                    <td>21:03:32</td>
+                    <td>108s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case010</td>
+                    <td>不针对项目</td>
+                    <td>测试数据分析工作集合的增删改等操作是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:01:45</td>
+                    <td>21:03:22</td>
+                    <td>97s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case011</td>
+                    <td>上海华为项目</td>
+                    <td>测试数据分析模板相关操作</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.ElementNotVisibleException'>, ElementNotVisibleException('element not visible\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x000000000440BC88>)</td>
+                    <td>21:02:14</td>
+                    <td>21:03:38</td>
+                    <td>83s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-03-34.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case013</td>
+                    <td>不针对项目</td>
+                    <td>测试登录后用户信息界面相关操作</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:02:14</td>
+                    <td>21:04:13</td>
+                    <td>118s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case014</td>
+                    <td>上海华为</td>
+                    <td>测试数据分析便签功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:03:22</td>
+                    <td>21:05:50</td>
+                    <td>148s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case015</td>
+                    <td>深圳华为项目</td>
+                    <td>测试数据分析->自选图形</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:03:32</td>
+                    <td>21:05:33</td>
+                    <td>121s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case016</td>
+                    <td>不针对项目</td>
+                    <td>测试登陆时出现密码错误的问题并计算登陆时间</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:03:39</td>
+                    <td>21:04:16</td>
+                    <td>37s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case018</td>
+                    <td>不针对项目</td>
+                    <td>测试项目列表模式与地图导航模式的切换</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:04:13</td>
+                    <td>21:05:01</td>
+                    <td>47s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case019</td>
+                    <td>上海中芯国际项目</td>
+                    <td>能耗统计页面dashboard超链接跳转</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:04:16</td>
+                    <td>21:05:18</td>
+                    <td>61s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case021</td>
+                    <td>不针对项目</td>
+                    <td>使用Kingsley账号邀请用户注册</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:05:01</td>
+                    <td>21:08:38</td>
+                    <td>217s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case023</td>
+                    <td>上海中芯国际项目</td>
+                    <td>能耗统计页面dashboard点添加到数据分析</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:05:18</td>
+                    <td>21:06:16</td>
+                    <td>57s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case024</td>
+                    <td>早班巡查项目1</td>
+                    <td>检查报表内容以及是否能下载</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.WebDriverException'>, WebDriverException('unknown error: Element is not clickable at point (194, 190). Other element would receive the click: <div class="spinnerMask"></div>\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x00000000044FE088>)</td>
+                    <td>21:05:33</td>
+                    <td>21:28:51</td>
+                    <td>1398s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-21-39.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case026</td>
+                    <td>国服上海华为、演示06、英文演示06项目</td>
+                    <td>测试冰蓄冷页面dashboard内容是否缺失</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:05:50</td>
+                    <td>21:11:54</td>
+                    <td>363s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case028</td>
+                    <td>不针对项目</td>
+                    <td>项目搜索功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:06:16</td>
+                    <td>21:07:06</td>
+                    <td>50s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case029</td>
+                    <td>上海华为项目</td>
+                    <td>诊断页面是否能正常加载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:07:09</td>
+                    <td>21:08:38</td>
+                    <td>88s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case030</td>
+                    <td>不针对项目</td>
+                    <td>登陆后版本信息等元素检查</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:08:38</td>
+                    <td>21:09:02</td>
+                    <td>23s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case031</td>
+                    <td>上海华为项目</td>
+                    <td>监测首页数据点是否丢失</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:08:41</td>
+                    <td>21:10:42</td>
+                    <td>120s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case032</td>
+                    <td>英文演示06项目</td>
+                    <td>诊断故障推送工单功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:09:05</td>
+                    <td>21:12:09</td>
+                    <td>184s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case034</td>
+                    <td>WebFactory</td>
+                    <td>Factory新建项目等操作</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:10:45</td>
+                    <td>21:12:53</td>
+                    <td>128s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case036</td>
+                    <td>梅赛德斯奔驰项目</td>
+                    <td>项目操作记录测试</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:11:54</td>
+                    <td>21:12:37</td>
+                    <td>42s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case040</td>
+                    <td>不针对项目</td>
+                    <td>1613687333@qq.com账号找回密码</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:12:13</td>
+                    <td>21:14:03</td>
+                    <td>110s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case042</td>
+                    <td>WebFactory</td>
+                    <td>Factory新建,修改,删除页面</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:12:40</td>
+                    <td>21:15:34</td>
+                    <td>173s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case045</td>
+                    <td>MyTest</td>
+                    <td>现场点表导出/导入</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.StaleElementReferenceException'>, StaleElementReferenceException('stale element reference: element is not attached to the page document\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x00000000045E2608>)</td>
+                    <td>21:12:56</td>
+                    <td>21:24:01</td>
+                    <td>664s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-23-59.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case046</td>
+                    <td>上海华为</td>
+                    <td>系统诊断数目是否相等</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('2C2810诊断中左侧的数目之和为38和右侧的数目为36不相等',), <traceback object at 0x000000000443BD08>)</td>
+                    <td>21:14:03</td>
+                    <td>21:18:48</td>
+                    <td>284s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-18-46.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case047</td>
+                    <td>无</td>
+                    <td>数据分析图表分享链接</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:15:37</td>
+                    <td>21:16:54</td>
+                    <td>76s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case048</td>
+                    <td>上海华为</td>
+                    <td>dashboard是否有数据</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('上海华为项目--设备--KPI管理--KPI标准设置页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x00000000044DF248>)</td>
+                    <td>21:16:57</td>
+                    <td>21:20:04</td>
+                    <td>187s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-20-04.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case050</td>
+                    <td>上海华为</td>
+                    <td>查看更多,查看日报点击是否连接</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000044EA748>)</td>
+                    <td>21:18:52</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:18:52.376040</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case054</td>
+                    <td>不选择项目</td>
+                    <td>全屏功能</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000045B6C88>)</td>
+                    <td>21:20:09</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:20:09.898474</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2016-11-16 12-13-40.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case055</td>
+                    <td>上海中芯国际</td>
+                    <td>数据管理点表搜索功能</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000044FEDC8>)</td>
+                    <td>21:20:44</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:20:44.348444</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case056</td>
+                    <td>上海中芯国际</td>
+                    <td>原始数据界面查看历史,刷新,收藏,分页功能</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入上海中芯国际项目失败, 详细信息: 进入上海中芯国际超过29.29秒spinner仍在加载!',), <traceback object at 0x00000000045F8048>)</td>
+                    <td>21:22:17</td>
+                    <td>21:25:05</td>
+                    <td>168s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-25-04.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case057</td>
+                    <td>上海中芯国际</td>
+                    <td>某时刻点值功能,分页功能,导出模板</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000045B6D08>)</td>
+                    <td>21:22:30</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:22:30.902539</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-07-05 13-13-34.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case058</td>
+                    <td>上海来福士项目</td>
+                    <td>报表等页面是否正常加载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:24:05</td>
+                    <td>21:30:05</td>
+                    <td>359s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case059</td>
+                    <td>长宁来福士项目</td>
+                    <td>报表等页面是否正常加载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:25:11</td>
+                    <td>21:30:14</td>
+                    <td>302s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case060</td>
+                    <td>新加坡Bugis+项目</td>
+                    <td>报表等页面是否正常加载</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('项目名: 新加坡Bugis+项目 页面名称: 报表管理 - KPI日报 页面地址: http://beop.rnbtech.com.hk/externalChainPage/57f0e4b8b2312e12dc0a426c 错误推断: 该页面无法正常加载 详细信息: funcname: waitElement error: timeout for wait element .pdf_text',), <traceback object at 0x000000000448BD08>)</td>
+                    <td>21:25:21</td>
+                    <td>21:35:45</td>
+                    <td>624s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-28-44.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case063</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Operation Summary--Energy Overview页面是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('Operation Summary--Energy Overview页面System Switching模块上面存在None<br/>Operation Summary--Energy Overview页面System Switching模块上面存在None<br/>Operation Summary--Energy Overview页面点击Energy Use Statistics处的Day按钮情况下存在NaN<br/>Operation Summary--Energy Overview页面点击Energy Use Statistics处的Week按钮情况下存在NaN<br/>Operation Summary--Energy Overview页面点击Energy Use Statistics处的Day按钮情况下存在NaN',), <traceback object at 0x00000000045F6DC8>)</td>
+                    <td>21:28:53</td>
+                    <td>21:31:18</td>
+                    <td>144s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-31-16.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case064</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Diagnosis Overview页面是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('175LiverpoolStreet项目--Operation Summary--Diagnosis Overview页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x00000000044A9FC8>)</td>
+                    <td>21:30:08</td>
+                    <td>21:32:18</td>
+                    <td>129s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-32-17.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case065</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Operation Summary-KPI Overview页面是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('175LiverpoolStreet项目--Operation Summary--KPI Overview页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x00000000045B29C8>)</td>
+                    <td>21:30:17</td>
+                    <td>21:32:43</td>
+                    <td>146s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-32-41.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case066</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Diagnosis页面是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('175LiverpoolStreet项目--Diagnosis页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x00000000044B4D48>)</td>
+                    <td>21:31:25</td>
+                    <td>21:33:39</td>
+                    <td>134s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-33-38.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case067</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Plant页面是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('175LiverpoolStreet项目--Plant--Chilled Water Schematic页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x000000000449FE88>)</td>
+                    <td>21:32:25</td>
+                    <td>21:34:37</td>
+                    <td>132s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-34-36.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case068</td>
+                    <td>DemoEn09</td>
+                    <td>检查首页页面是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x0000000004489A88>)</td>
+                    <td>21:32:47</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:32:47.803824</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case069</td>
+                    <td>DemoEn09</td>
+                    <td>检查KPI Summary是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000045F6488>)</td>
+                    <td>21:33:38</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:33:38.114701</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-07-03 09-58-50.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case070</td>
+                    <td>DemoEn09</td>
+                    <td>检查Energy&cost overview是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.NoSuchElementException'>, NoSuchElementException('no such element: Unable to locate element: {"method":"css selector","selector":"#btnDay"}\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x00000000046C3A48>)</td>
+                    <td>21:33:47</td>
+                    <td>21:37:54</td>
+                    <td>247s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-37-52.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case071</td>
+                    <td>DemoEn09</td>
+                    <td>检查Ice storage system overview是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('DemoEn09项目--Equipment--Operation--Ice storage system overview页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x00000000044B38C8>)</td>
+                    <td>21:34:34</td>
+                    <td>21:37:08</td>
+                    <td>154s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-37-07.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case072</td>
+                    <td>DemoEn09</td>
+                    <td>检查Equipments是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入DemoEn09项目失败, 详细信息: 进入DemoEn09超过32.25秒spinner仍在加载!',), <traceback object at 0x00000000044A1948>)</td>
+                    <td>21:34:42</td>
+                    <td>21:37:32</td>
+                    <td>169s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-37-29.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case073</td>
+                    <td>DemoEn09</td>
+                    <td>检查Diagnosis-System diagnosis是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入DemoEn09项目失败, 详细信息: 进入DemoEn09超过33.50秒spinner仍在加载!',), <traceback object at 0x00000000045BCEC8>)</td>
+                    <td>21:35:53</td>
+                    <td>21:37:46</td>
+                    <td>113s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-37-44.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case074</td>
+                    <td>DemoEn09</td>
+                    <td>检查Diagnosis-Diagnosis overview是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046E1548>)</td>
+                    <td>21:37:16</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:37:16.198175</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case075</td>
+                    <td>金钟广场</td>
+                    <td>检查页面首页是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046D44C8>)</td>
+                    <td>21:37:37</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:37:37.000365</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-04-05 13-15-28.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case076</td>
+                    <td>上海华为</td>
+                    <td>上海华为首页</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:37:50</td>
+                    <td>21:39:34</td>
+                    <td>103s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case077</td>
+                    <td>WebFactory</td>
+                    <td>查看Factory修改项目中项目类型和标识是否正确</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'NameError'>, NameError("name 'WebDriverTools' is not defined",), <traceback object at 0x00000000044B3588>)</td>
+                    <td>21:37:58</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:37:58.700606</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case078</td>
+                    <td></td>
+                    <td>工单检查</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户sophia1990529@163.com 密码zhao_123456登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046D62C8>)</td>
+                    <td>21:38:56</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:38:56.430908</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-04-28 10-30-50.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case079</td>
+                    <td></td>
+                    <td>工单项目检查</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户sophia1990529@163.com 密码zhao_123456登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046D8CC8>)</td>
+                    <td>21:39:37</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:39:37.954283</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-04-11 13-58-38.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case081</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查首页页面是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046E6608>)</td>
+                    <td>21:40:26</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:40:26.482059</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case082</td>
+                    <td>中芯国际</td>
+                    <td>检查数据诊断诊断文件夹,增删改</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入中芯国际项目失败, 详细信息: 进入中芯国际超过37.92秒spinner仍在加载!',), <traceback object at 0x00000000046D9988>)</td>
+                    <td>21:40:39</td>
+                    <td>21:46:45</td>
+                    <td>366s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-46-43.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case084</td>
+                    <td>中芯国际</td>
+                    <td>检查数据诊断诊断页面,增删改</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入中芯国际项目失败, 详细信息: Message: element not visible\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)\n',), <traceback object at 0x00000000044BF508>)</td>
+                    <td>21:41:26</td>
+                    <td>21:46:41</td>
+                    <td>314s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-46-31.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case086</td>
+                    <td>MercedesBenz</td>
+                    <td>用电总览</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入MercedesBenz项目失败, 详细信息: 进入MercedesBenz超过30.84秒spinner仍在加载!',), <traceback object at 0x00000000046EED08>)</td>
+                    <td>21:42:19</td>
+                    <td>21:50:03</td>
+                    <td>463s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-47-55.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case087</td>
+                    <td>上海世贸皇家艾美</td>
+                    <td>能耗值查询</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入shsmhjam项目失败, 详细信息: 进入shsmhjam超过51.11秒spinner仍在加载!',), <traceback object at 0x00000000046DEAC8>)</td>
+                    <td>21:43:06</td>
+                    <td>21:49:16</td>
+                    <td>369s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-49-08.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case089</td>
+                    <td>英文演示06项目</td>
+                    <td>诊断项目反馈功能</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046DE8C8>)</td>
+                    <td>21:46:46</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:46:46.563798</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-05-16 10-53-31.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case094</td>
+                    <td>上海华为</td>
+                    <td>KPI 汇总-HVAC检查</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046DAE08>)</td>
+                    <td>21:47:02</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:47:02.454707</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case095</td>
+                    <td>WebFactory</td>
+                    <td>Factory中数据源搜索点是否出现多个相同的点名</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>21:48:44</td>
+                    <td>21:53:26</td>
+                    <td>281s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case096</td>
+                    <td>49Mytest</td>
+                    <td>导出数据验证时间参数是否传递正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046EC048>)</td>
+                    <td>21:49:24</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:49:24.017804</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case097</td>
+                    <td></td>
+                    <td>计算点批量导入</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('批量添加20个点用时 1333秒，用时过长！',), <traceback object at 0x00000000046D0E88>)</td>
+                    <td>21:50:14</td>
+                    <td>22:12:31</td>
+                    <td>1336s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 22-12-28.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case098</td>
+                    <td></td>
+                    <td>添加数据源后标题栏消失</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.NoSuchElementException'>, NoSuchElementException('no such element: Unable to locate element: {"method":"id","selector":"selectGroup"}\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x00000000046E9108>)</td>
+                    <td>21:50:25</td>
+                    <td>21:55:11</td>
+                    <td>286s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-55-02.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case099</td>
+                    <td>光明乳业</td>
+                    <td>验证报表不为空且没有异常数据..验证pdf和word的能下载,验证修改时间,有报表</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('光明乳业项目--报表页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x00000000046D93C8>)</td>
+                    <td>21:51:48</td>
+                    <td>21:55:20</td>
+                    <td>212s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-55-19.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case100</td>
+                    <td>光明乳业</td>
+                    <td>检查首页选中设备不要弹出 no history data,选中设备后右侧出现详情以及温度趋势和合格率趋势的显示,搜索框可以用 </td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('登陆Beop后进入光明乳业项目失败, 详细信息: Message: \n',), <traceback object at 0x00000000045B7988>)</td>
+                    <td>21:53:29</td>
+                    <td>21:55:46</td>
+                    <td>136s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 21-55-42.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case101</td>
+                    <td>光明乳业</td>
+                    <td>选中设备,点击温度趋势处的展开,有趋势图出现,更改时间查询,可以看到新的数据,点击导出有文件.点击回到地图可以</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.NoSuchElementException'>, NoSuchElementException('no such element: Unable to locate element: {"method":"css selector","selector":"#iptTimeStart"}\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x00000000046F5288>)</td>
+                    <td>21:55:29</td>
+                    <td>22:00:59</td>
+                    <td>330s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 22-00-43.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case102</td>
+                    <td>光明乳业</td>
+                    <td>选中一个点,点击轨迹回放,有轨迹曲线,切换日期,拖拽控件处时间也应该变,回到地图是否可用</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户BrightDTM@163.com 密码BrightDTM2017登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046F49C8>)</td>
+                    <td>21:55:48</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:55:48.116773</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-03-21 18-07-08.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case103</td>
+                    <td>光明乳业</td>
+                    <td>数据统计,页面数据正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'FileNotFoundError'>, FileNotFoundError(2, '系统找不到指定的文件。'), <traceback object at 0x00000000046FB908>)</td>
+                    <td>21:56:03</td>
+                    <td>None</td>
+                    <td>2017-08-15 21:56:03.024626</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 22-03-03.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case104</td>
+                    <td>49Mytest</td>
+                    <td>计算点补数据后看不到任务列表</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.WebDriverException'>, WebDriverException('unknown error: Element is not clickable at point (1824, 26). Other element would receive the click: <div id="infoBoxModal"></div>\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x00000000046E94C8>)</td>
+                    <td>21:57:55</td>
+                    <td>22:03:57</td>
+                    <td>362s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/None">2017-08-15 22-03-47.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case105</td>
+                    <td>金钟广场</td>
+                    <td>检查页面能耗概览是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('用户projecttest@rnbtech.com.hk 密码Rnbtech1103登陆失败，请检查账号密码是否正确!',), <traceback object at 0x00000000046EEB48>)</td>
+                    <td>2017-08-15 22:01:06</td>
+                    <td>None</td>
+                    <td>2017-08-15 22:01:06.324974</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case106</td>
+                    <td>金钟广场</td>
+                    <td>检查页面KPI概览是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('金钟广场项目--KPI概览页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x00000000044BFCC8>)</td>
+                    <td>2017-08-15 22:03:33</td>
+                    <td>22:09:56</td>
+                    <td>382s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case107</td>
+                    <td>金钟广场</td>
+                    <td>检查页面诊断概览是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2017-08-15 22:04:02</td>
+                    <td>22:09:49</td>
+                    <td>346s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case109</td>
+                    <td>金钟广场</td>
+                    <td>检查运营报表是否正常</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('金钟广场项目--报表页面在30s内加载失败! 详细信息: Message: \n',), <traceback object at 0x0000000004489188>)</td>
+                    <td>2017-08-15 22:04:13</td>
+                    <td>22:10:46</td>
+                    <td>392s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case110</td>
+                    <td>上海中芯国际</td>
+                    <td>检查现场点，虚拟点，计算点搜索点击按钮是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>22:09:56</td>
+                    <td>22:17:06</td>
+                    <td>430s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case111</td>
+                    <td>不针对项目</td>
+                    <td>检查官网页面内容</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'selenium.common.exceptions.NoSuchElementException'>, NoSuchElementException('no such element: Unable to locate element: {"method":"css selector","selector":"#divLanguage"}\n  (Session info: chrome=55.0.2883.75)\n  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)', None, None), <traceback object at 0x00000000044B8848>)</td>
+                    <td>22:10:02</td>
+                    <td>22:11:08</td>
+                    <td>66s</td>
+                    <td>无</td>
+                </tr>
+            
+    </table>
+
+</div>
+<div id='ending'>&nbsp;</div>
+</body>
+</html>

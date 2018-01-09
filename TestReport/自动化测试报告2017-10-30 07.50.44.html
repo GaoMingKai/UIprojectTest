@@ -1,0 +1,1509 @@
+
+    <style type="text/css" media="screen">
+        body {
+            font-family: verdana, arial, helvetica, sans-serif;
+        }
+        table {
+            *border-collapse: collapse; /* IE7 and lower */
+            border-spacing: 0;
+            width: 100%;
+        }
+
+        .bordered {
+            border: solid #ccc 1px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-box-shadow: 0 1px 1px #ccc;
+            -moz-box-shadow: 0 1px 1px #ccc;
+            box-shadow: 0 1px 1px #ccc;
+        }
+
+        .bordered tr:hover {
+            background: #fbf8e9;
+            -o-transition: all 0.1s ease-in-out;
+            -webkit-transition: all 0.1s ease-in-out;
+            -moz-transition: all 0.1s ease-in-out;
+            -ms-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
+        }
+
+        .bordered td, .bordered th {
+            border-left: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .bordered .th {
+            background-color: #dce9f9;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+            background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+            -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+            -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+            box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+            border-top: none;
+            text-shadow: 0 1px 0 rgba(255,255,255,.5);
+        }
+
+        .bordered td:first-child, .bordered th:first-child {
+            border-left: none;
+        }
+
+        .bordered th:first-child {
+            -moz-border-radius: 6px 0 0 0;
+            -webkit-border-radius: 6px 0 0 0;
+            border-radius: 6px 0 0 0;
+        }
+
+        .bordered th:last-child {
+            -moz-border-radius: 0 6px 0 0;
+            -webkit-border-radius: 0 6px 0 0;
+            border-radius: 0 6px 0 0;
+        }
+
+        .bordered th:only-child{
+            -moz-border-radius: 6px 6px 0 0;
+            -webkit-border-radius: 6px 6px 0 0;
+            border-radius: 6px 6px 0 0;
+        }
+
+        .bordered tr:last-child td:first-child {
+            -moz-border-radius: 0 0 0 6px;
+            -webkit-border-radius: 0 0 0 6px;
+            border-radius: 0 0 0 6px;
+        }
+
+        .bordered tr:last-child td:last-child {
+            -moz-border-radius: 0 0 6px 0;
+            -webkit-border-radius: 0 0 6px 0;
+            border-radius: 0 0 6px 0;
+        }
+
+        table {
+            font-size: 100%;
+        }
+
+        pre {
+        }
+
+        /* -- heading ---------------------------------------------------------------------- */
+        h1 {
+            font-size: 16pt;
+            color: gray;
+        }
+
+        .heading {
+            margin-top: 0ex;
+            margin-bottom: 1ex;
+        }
+
+        .heading .attribute {
+            margin-top: 1ex;
+            margin-bottom: 0;
+        }
+
+        .heading .description {
+            margin-top: 4ex;
+            margin-bottom: 6ex;
+        }
+
+        /* -- css div popup ------------------------------------------------------------------------ */
+        a.popup_link {
+        }
+
+        a.popup_link:hover {
+            color: red;
+        }
+
+        .popup_window {
+            display: none;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            /*border: solid #627173 1px; */
+            padding: 10px;
+            background-color: #E6E6D6;
+            font-family: "Lucida Console", "Courier New", Courier, monospace;
+            text-align: left;
+            font-size: 8pt;
+            width: 500px;
+        }
+
+        }
+        /* -- report ------------------------------------------------------------------------ */
+        #show_detail_line {
+            margin-top: 3ex;
+            margin-bottom: 1ex;
+        }
+
+        #result_tabl {
+            width: 80%;
+            border-collapse: collapse;
+            border: 1px solid #777;
+        }
+
+        #header_row {
+            font-weight: bold;
+            color: white;
+            background-color: #777;
+        }
+
+        #result_table td {
+            border: 1px solid #777;
+            padding: 2px;
+        }
+
+        #total_row {
+            font-weight: bold;
+        }
+
+        .passClass {
+            background-color: #6c6;
+        }
+
+        .failClass {
+            background-color: #c60;
+        }
+
+        .errorClass {
+            background-color: #c00;
+        }
+
+        .passCase {
+            color: #6c6;
+        }
+
+        .failCase {
+            color: #c60;
+            font-weight: bold;
+        }
+
+        .errorCase {
+            color: #c00;
+            font-weight: bold;
+        }
+
+        .hiddenRow {
+            display: none;
+        }
+
+        .testcase {
+            margin-left: 2em;
+        }
+
+        /* -- ending ---------------------------------------------------------------------- */
+        #ending {
+        }
+        #describe{
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+<div>
+    <table class="bordered">
+        <tr class="th">
+            <td>用例编号</td>
+            <td>项目名称</td>
+            <td>业务名称</td>
+            <td>通过</td>
+            <td>失败</td>
+            <td style="text-align: center">描述</td>
+            <td>开始时间</td>
+            <td>结束时间</td>
+            <td>消耗时间</td>
+            <td>错误截图</td>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case001</td>
+                    <td>香港华润</td>
+                    <td>数据分析页</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:00:31</td>
+                    <td>07:01:44</td>
+                    <td>73s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case002</td>
+                    <td>深圳华为</td>
+                    <td>系统监控</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:00:31</td>
+                    <td>07:02:08</td>
+                    <td>96s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case003</td>
+                    <td>上海中芯国际</td>
+                    <td>系统监控</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:00:31</td>
+                    <td>07:02:00</td>
+                    <td>88s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case004</td>
+                    <td>不针对项目</td>
+                    <td>用户名检验,并注销用户</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:00:31</td>
+                    <td>07:01:39</td>
+                    <td>67s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case005</td>
+                    <td>上海华为</td>
+                    <td>数据分析:图标</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:01:39</td>
+                    <td>07:03:12</td>
+                    <td>92s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case006</td>
+                    <td>不针对项目</td>
+                    <td>批量用户登录:消耗时间</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:01:44</td>
+                    <td>07:02:24</td>
+                    <td>39s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case007</td>
+                    <td>不针对项目</td>
+                    <td>地图加载:红色圆点显示</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:02:00</td>
+                    <td>07:02:49</td>
+                    <td>49s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case008</td>
+                    <td>不针对项目</td>
+                    <td>测试数据分析模块中，在数据组中添加点后图表显示问题</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:02:08</td>
+                    <td>07:03:20</td>
+                    <td>72s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case009</td>
+                    <td>上海华为项目</td>
+                    <td>测试数据分析各个界面的内容是否丢失</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:02:24</td>
+                    <td>07:04:16</td>
+                    <td>111s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case010</td>
+                    <td>不针对项目</td>
+                    <td>测试数据分析工作集合的增删改等操作是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:02:49</td>
+                    <td>07:04:19</td>
+                    <td>90s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case011</td>
+                    <td>上海华为项目</td>
+                    <td>测试数据分析模板相关操作</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:03:12</td>
+                    <td>07:04:49</td>
+                    <td>97s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case013</td>
+                    <td>不针对项目</td>
+                    <td>测试登录后用户信息界面相关操作</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:03:24</td>
+                    <td>07:05:15</td>
+                    <td>111s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case014</td>
+                    <td>上海华为</td>
+                    <td>测试数据分析便签功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:04:16</td>
+                    <td>07:06:38</td>
+                    <td>141s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case015</td>
+                    <td>深圳华为项目</td>
+                    <td>测试数据分析->自选图形</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:04:19</td>
+                    <td>07:06:28</td>
+                    <td>128s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case016</td>
+                    <td>不针对项目</td>
+                    <td>测试登陆时出现密码错误的问题并计算登陆时间</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:04:49</td>
+                    <td>07:05:20</td>
+                    <td>30s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case018</td>
+                    <td>不针对项目</td>
+                    <td>测试项目列表模式与地图导航模式的切换</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:05:15</td>
+                    <td>07:06:06</td>
+                    <td>50s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case019</td>
+                    <td>上海中芯国际项目</td>
+                    <td>能耗统计页面dashboard超链接跳转</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:05:20</td>
+                    <td>07:06:39</td>
+                    <td>78s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case021</td>
+                    <td>不针对项目</td>
+                    <td>使用Kingsley账号邀请用户注册</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:06:06</td>
+                    <td>07:09:16</td>
+                    <td>190s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case023</td>
+                    <td>上海中芯国际项目</td>
+                    <td>能耗统计页面dashboard点添加到数据分析</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:06:28</td>
+                    <td>07:07:38</td>
+                    <td>70s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case024</td>
+                    <td>早班巡查项目1</td>
+                    <td>检查报表内容以及是否能下载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:06:38</td>
+                    <td>07:15:07</td>
+                    <td>509s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case026</td>
+                    <td>国服上海华为、演示06、英文演示06项目</td>
+                    <td>测试冰蓄冷页面dashboard内容是否缺失</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:06:39</td>
+                    <td>07:12:41</td>
+                    <td>362s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case028</td>
+                    <td>不针对项目</td>
+                    <td>项目搜索功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:07:38</td>
+                    <td>07:08:32</td>
+                    <td>53s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case029</td>
+                    <td>上海华为项目</td>
+                    <td>诊断页面是否能正常加载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:08:35</td>
+                    <td>07:10:01</td>
+                    <td>86s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case030</td>
+                    <td>不针对项目</td>
+                    <td>登陆后版本信息等元素检查</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:09:16</td>
+                    <td>07:09:42</td>
+                    <td>25s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case031</td>
+                    <td>上海华为项目</td>
+                    <td>监测首页数据点是否丢失</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:09:45</td>
+                    <td>07:11:22</td>
+                    <td>97s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case032</td>
+                    <td>英文演示06项目</td>
+                    <td>诊断故障推送工单功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:10:04</td>
+                    <td>07:11:19</td>
+                    <td>74s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case034</td>
+                    <td>WebFactory</td>
+                    <td>Factory新建项目等操作</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:11:22</td>
+                    <td>07:13:03</td>
+                    <td>101s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case036</td>
+                    <td>梅赛德斯奔驰项目</td>
+                    <td>项目操作记录测试</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:11:25</td>
+                    <td>07:12:20</td>
+                    <td>54s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case040</td>
+                    <td>不针对项目</td>
+                    <td>1613687333@qq.com账号找回密码</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:12:23</td>
+                    <td>07:14:15</td>
+                    <td>111s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case042</td>
+                    <td>WebFactory</td>
+                    <td>Factory新建,修改,删除页面</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:12:41</td>
+                    <td>07:15:38</td>
+                    <td>176s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case045</td>
+                    <td>MyTest</td>
+                    <td>现场点表导出/导入</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x0000000008A20FC8>)</td>
+                    <td>07:13:06</td>
+                    <td>07:26:39</td>
+                    <td>812s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/59f663a21ca7e51934d3e20a">2017-10-30 07-26-38.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case046</td>
+                    <td>上海华为</td>
+                    <td>系统诊断数目是否相等</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:14:15</td>
+                    <td>07:19:51</td>
+                    <td>336s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case047</td>
+                    <td>无</td>
+                    <td>数据分析图表分享链接</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:15:07</td>
+                    <td>07:16:30</td>
+                    <td>83s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case048</td>
+                    <td>上海华为</td>
+                    <td>dashboard是否有数据</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:15:41</td>
+                    <td>07:23:21</td>
+                    <td>460s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case050</td>
+                    <td>上海华为</td>
+                    <td>查看更多,查看日报点击是否连接</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:16:33</td>
+                    <td>07:17:56</td>
+                    <td>82s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case054</td>
+                    <td>不选择项目</td>
+                    <td>全屏功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:17:59</td>
+                    <td>07:19:16</td>
+                    <td>77s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case055</td>
+                    <td>上海中芯国际</td>
+                    <td>数据管理点表搜索功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:19:16</td>
+                    <td>07:24:06</td>
+                    <td>289s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case056</td>
+                    <td>上海中芯国际</td>
+                    <td>原始数据界面查看历史,刷新,收藏,分页功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:19:54</td>
+                    <td>07:21:42</td>
+                    <td>107s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case057</td>
+                    <td>上海中芯国际</td>
+                    <td>某时刻点值功能,分页功能,导出模板</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:21:45</td>
+                    <td>07:23:27</td>
+                    <td>102s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case058</td>
+                    <td>上海来福士项目</td>
+                    <td>报表等页面是否正常加载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:23:24</td>
+                    <td>07:26:52</td>
+                    <td>207s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case059</td>
+                    <td>长宁来福士项目</td>
+                    <td>报表等页面是否正常加载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:23:30</td>
+                    <td>07:26:59</td>
+                    <td>208s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case060</td>
+                    <td>新加坡Bugis+项目</td>
+                    <td>报表等页面是否正常加载</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:24:09</td>
+                    <td>07:27:16</td>
+                    <td>187s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case063</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Operation Summary--Energy Overview页面是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:26:43</td>
+                    <td>07:28:13</td>
+                    <td>89s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case064</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Diagnosis Overview页面是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:26:55</td>
+                    <td>07:28:23</td>
+                    <td>88s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case065</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Operation Summary-KPI Overview页面是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:27:02</td>
+                    <td>07:30:04</td>
+                    <td>181s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case066</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Diagnosis页面是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:27:19</td>
+                    <td>07:29:51</td>
+                    <td>151s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case067</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查Plant页面是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:28:16</td>
+                    <td>07:35:00</td>
+                    <td>404s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case068</td>
+                    <td>DemoEn09</td>
+                    <td>检查首页页面是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:28:26</td>
+                    <td>07:29:26</td>
+                    <td>60s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case069</td>
+                    <td>DemoEn09</td>
+                    <td>检查KPI Summary是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:29:30</td>
+                    <td>07:33:30</td>
+                    <td>240s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case070</td>
+                    <td>DemoEn09</td>
+                    <td>检查Energy&cost overview是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:29:54</td>
+                    <td>07:31:41</td>
+                    <td>106s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case071</td>
+                    <td>DemoEn09</td>
+                    <td>检查Ice storage system overview是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:30:07</td>
+                    <td>07:31:56</td>
+                    <td>108s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case072</td>
+                    <td>DemoEn09</td>
+                    <td>检查Equipments是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:31:44</td>
+                    <td>07:34:17</td>
+                    <td>153s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case073</td>
+                    <td>DemoEn09</td>
+                    <td>检查Diagnosis-System diagnosis是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:31:59</td>
+                    <td>07:36:11</td>
+                    <td>251s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case074</td>
+                    <td>DemoEn09</td>
+                    <td>检查Diagnosis-Diagnosis overview是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:33:33</td>
+                    <td>07:35:33</td>
+                    <td>120s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case075</td>
+                    <td>金钟广场</td>
+                    <td>检查页面首页是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:34:20</td>
+                    <td>07:36:05</td>
+                    <td>104s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case076</td>
+                    <td>上海华为</td>
+                    <td>上海华为首页</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:35:03</td>
+                    <td>07:36:04</td>
+                    <td>60s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case077</td>
+                    <td>WebFactory</td>
+                    <td>查看Factory修改项目中项目类型和标识是否正确</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:35:37</td>
+                    <td>07:36:12</td>
+                    <td>35s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case078</td>
+                    <td></td>
+                    <td>工单检查</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:36:07</td>
+                    <td>07:37:10</td>
+                    <td>62s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case079</td>
+                    <td></td>
+                    <td>工单项目检查</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:36:08</td>
+                    <td>07:37:26</td>
+                    <td>77s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case081</td>
+                    <td>175LiverpoolStreet</td>
+                    <td>检查首页页面是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:36:14</td>
+                    <td>07:37:01</td>
+                    <td>47s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case082</td>
+                    <td>中芯国际</td>
+                    <td>检查数据诊断诊断文件夹,增删改</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:36:15</td>
+                    <td>07:37:35</td>
+                    <td>79s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case084</td>
+                    <td>中芯国际</td>
+                    <td>检查数据诊断诊断页面,增删改</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:37:05</td>
+                    <td>07:38:29</td>
+                    <td>84s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case086</td>
+                    <td>MercedesBenz</td>
+                    <td>用电总览</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:37:14</td>
+                    <td>07:38:36</td>
+                    <td>82s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case087</td>
+                    <td>上海世贸皇家艾美</td>
+                    <td>能耗值查询</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:37:29</td>
+                    <td>07:38:40</td>
+                    <td>70s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case089</td>
+                    <td>英文演示06项目</td>
+                    <td>诊断项目反馈功能</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:37:38</td>
+                    <td>07:39:00</td>
+                    <td>82s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case094</td>
+                    <td>上海华为</td>
+                    <td>KPI 汇总-HVAC检查</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:38:32</td>
+                    <td>07:40:06</td>
+                    <td>93s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case095</td>
+                    <td>WebFactory</td>
+                    <td>Factory中数据源搜索点是否出现多个相同的点名</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:38:39</td>
+                    <td>07:39:27</td>
+                    <td>48s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case096</td>
+                    <td>49Mytest</td>
+                    <td>导出数据验证时间参数是否传递正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:38:43</td>
+                    <td>07:39:43</td>
+                    <td>59s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case097</td>
+                    <td></td>
+                    <td>计算点批量导入</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:39:04</td>
+                    <td>07:40:54</td>
+                    <td>110s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#f2dede;">
+                    <td>Case099</td>
+                    <td>光明乳业</td>
+                    <td>验证报表不为空且没有异常数据..验证pdf和word的能下载,验证修改时间,有报表</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>(<class 'AssertionError'>, AssertionError('光明乳业项目->合格率统计报表报表下载.xlsx失败!因为下载目录中未包含合格率统计报表文件!',), <traceback object at 0x0000000008CB76C8>)</td>
+                    <td>07:39:30</td>
+                    <td>07:41:51</td>
+                    <td>140s</td>
+                    <td><a href="http://140.207.49.230:5009/getPic/59f667321ca7e51934d3e20c">2017-10-30 07-41-50.png点击查看</a></td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case100</td>
+                    <td>光明乳业</td>
+                    <td>检查首页选中设备不要弹出 no history data,选中设备后右侧出现详情以及温度趋势和合格率趋势的显示,搜索框可以用 </td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:39:46</td>
+                    <td>07:41:31</td>
+                    <td>104s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case101</td>
+                    <td>光明乳业</td>
+                    <td>选中设备,点击温度趋势处的展开,有趋势图出现,更改时间查询,可以看到新的数据,点击导出有文件.点击回到地图可以</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:40:09</td>
+                    <td>07:41:12</td>
+                    <td>63s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case102</td>
+                    <td>光明乳业</td>
+                    <td>选中一个点,点击轨迹回放,有轨迹曲线,切换日期,拖拽控件处时间也应该变,回到地图是否可用</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:40:57</td>
+                    <td>07:43:53</td>
+                    <td>176s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case103</td>
+                    <td>光明乳业</td>
+                    <td>数据统计,页面数据正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:41:15</td>
+                    <td>07:42:18</td>
+                    <td>62s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case104</td>
+                    <td>49Mytest</td>
+                    <td>计算点补数据后看不到任务列表</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:41:34</td>
+                    <td>07:42:53</td>
+                    <td>79s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case105</td>
+                    <td>金钟广场</td>
+                    <td>检查页面能耗概览是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2017-10-30 07:41:54</td>
+                    <td>07:43:19</td>
+                    <td>85s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case106</td>
+                    <td>金钟广场</td>
+                    <td>检查页面KPI概览是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2017-10-30 07:42:21</td>
+                    <td>07:44:03</td>
+                    <td>101s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case107</td>
+                    <td>金钟广场</td>
+                    <td>检查页面诊断概览是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2017-10-30 07:42:56</td>
+                    <td>07:44:25</td>
+                    <td>89s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case109</td>
+                    <td>金钟广场</td>
+                    <td>检查运营报表是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2017-10-30 07:43:23</td>
+                    <td>07:50:40</td>
+                    <td>437s</td>
+                    <td>无</td>
+                </tr>
+            
+                
+                    
+                
+                <tr style="background-color:#dff0d8;">
+                    <td>Case110</td>
+                    <td>上海中芯国际</td>
+                    <td>检查现场点，虚拟点，计算点搜索点击按钮是否正常</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>07:43:56</td>
+                    <td>07:46:42</td>
+                    <td>165s</td>
+                    <td>无</td>
+                </tr>
+            
+    </table>
+
+</div>
+<div id='ending'>&nbsp;</div>
+</body>
+</html>

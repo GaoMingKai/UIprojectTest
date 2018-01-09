@@ -1,0 +1,1481 @@
+[2017-07-26 09:25:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 21:02:10]---进入Beop首页超过28.27秒spinner仍在加载!
+[2017-08-15 21:02:11]---进入Beop首页超过30.19秒spinner仍在加载!
+[2017-08-15 21:20:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 21:22:04]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 21:22:06]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 21:47:55]---funcname: InitialChromeMessage: timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.564
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 21:48:38]---funcname: loginclear函数出错!详情: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 21:51:43]---funcname: loginclear函数出错!详情: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 21:57:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-15 22:05:16]---funcname: InitialChromeMessage: unknown error: cannot get automation extension
+from timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:01:24]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:01:51]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:02:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:02:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:02:18]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:02:20]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:02:45]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:02:46]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:02:47]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:04]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:12]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:13]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:14]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:31]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:39]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:03:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:04:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:04:32]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:04:34]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:04:59]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:05:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:05:02]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:05:20]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:05:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:05:32]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:05:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:07:02]---webdriver.Chrome() error:Message: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:07:05]---webdriver.Chrome() error:Message: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:08:01]---funcname: InitialChromeMessage: unknown error: cannot get automation extension
+from timeout: cannot determine loading status
+from timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: 0.055
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:08:03]---funcname: InitialChromeMessage: unknown error: cannot get automation extension
+from timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.005
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:08:30]---webdriver.Chrome() error:Message: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:09:38]---webdriver.Chrome() error:Message: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:10:25]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:11:00]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:12:09]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:12:16]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:13:44]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:13:44]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:13:44]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:15:11]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:15:16]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:16:39]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:16:45]---webdriver.Chrome() error:Message: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:16:57]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:17:24]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:17:51]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:17:53]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:17:54]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:18:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:18:20]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:18:35]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:19:18]---funcname: InitialChromeFactory[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2017-08-19 07:19:22]---webdriver.Chrome() error:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2017-08-19 07:19:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:19:43]---webdriver.Chrome() error:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2017-08-19 07:19:51]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:21:10]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:21:12]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:22:26]---funcname: InitialChromeMessage: unknown error: cannot get automation extension
+from timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -16.285
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:22:52]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:22:56]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:22:56]---clearMessage: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:22:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:23:02]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:23:24]---webdriver.Chrome() error:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2017-08-19 07:23:54]---webdriver.Chrome() error:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2017-08-19 07:25:04]---funcname: InitialChromeMessage: unknown error: cannot get automation extension
+from timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.052
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:25:06]---funcname: InitialChromeMessage: unknown error: cannot get automation extension
+from timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -26.057
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:25:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:25:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 07:25:39]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:01:23]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:01:50]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:02:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:02:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:02:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:02:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:02:45]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:02:45]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:02:45]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:04]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:12]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:12]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:12]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:31]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:03:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:04:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:04:34]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:04:34]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:01]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:02]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:18]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:27]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:05:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:06:23]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:06:50]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:07:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:07:45]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:08:12]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:08:39]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:09:06]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:09:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:10:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:10:10]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:10:18]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:10:27]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:10:37]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:10:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:11:04]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:11:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:11:31]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:11:38]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:11:49]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:11:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:12:06]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:12:16]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:12:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:12:43]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:13:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:13:11]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:13:19]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:13:27]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:13:38]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:13:46]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:13:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:14:05]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:14:13]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:14:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:14:34]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-19 21:15:55]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:01:50]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:02:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:02:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:02:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:02:43]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:02:44]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:09]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:10]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:11]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:36]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:37]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:38]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:03:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:04:03]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:04:04]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:04:05]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:04:23]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:04:35]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:04:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:02]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:23]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:24]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:43]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:51]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:51]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:05:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:06:23]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:06:50]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:07:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:07:44]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:08:12]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:08:39]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:09:06]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:09:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:10:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:10:27]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:10:34]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:10:41]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:10:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:11:01]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:11:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:11:28]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:11:49]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:11:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:12:01]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:12:16]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:12:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:12:28]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:12:43]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:12:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:13:10]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:13:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:13:38]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:13:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:13:49]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:14:05]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:14:10]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:14:17]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:14:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:15:42]---webdriver.Chrome() error:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2017-08-20 07:18:26]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:19:14]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 07:19:23]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:01:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:02:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:02:48]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:02:48]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:02:48]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:02:49]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:03:15]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:03:16]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:03:16]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:03:36]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:03:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:03:44]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:03:44]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:04:03]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:04:09]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:04:11]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:04:11]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:04:30]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:04:38]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:02]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:06]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:50]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:05:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:06:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:06:27]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:06:54]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:07:21]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:07:48]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:08:15]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:08:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:09:09]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:09:37]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:10:04]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:10:31]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:10:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:10:46]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:10:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:11:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:11:25]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:11:34]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:11:52]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:12:01]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:12:06]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:12:20]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:12:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:12:34]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:12:47]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:13:01]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:13:14]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:13:28]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:13:41]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:13:49]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:13:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:14:08]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:14:16]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:14:22]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:14:36]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:14:47]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:15:02]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:20:27]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-20 21:20:27]---webdriver.Chrome() error:Message: chrome not reachable
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:01:25]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:01:53]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:02:18]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:02:19]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:02:19]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:02:20]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:02:45]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:02:47]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:02:47]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:05]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:13]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:14]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:14]---clearMessage: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:14]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:03:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:04:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:04:09]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:04:32]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:04:36]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:04:59]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:05:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:05:03]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:05:20]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:05:27]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:05:27]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:05:30]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:05:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:06:25]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:06:52]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:07:19]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:07:46]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:08:13]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:08:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:09:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:09:35]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:10:02]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:10:10]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:10:21]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:10:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:10:37]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:10:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:11:05]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:11:23]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:11:32]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:11:40]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:11:50]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:11:59]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:12:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:12:18]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:12:35]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:12:45]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:13:02]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:13:12]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:13:19]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:13:29]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:13:39]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:13:46]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:13:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:14:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:14:14]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:14:24]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:15:39]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-08-21 07:15:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-09-19 21:02:03]---进入Beop首页超过24.27秒spinner仍在加载!
+[2017-10-19 21:13:52]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-10-20 07:13:16]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-10-28 07:14:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-10-28 07:15:19]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-10-28 07:16:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-10-28 07:16:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-03 17:22:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-03 17:22:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-03 17:22:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-03 17:22:33]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-03 17:23:43]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-03 17:23:43]---funcName: get_pic error: 'DriverMethods' object has no attribute 'get_screenshot_as_file'
+[2017-11-03 17:23:43]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-03 18:07:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-11 07:01:56]---进入Beop首页超过24.90秒spinner仍在加载!
+[2017-11-12 21:02:31]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-12 21:03:00]---进入Beop首页超过28.01秒spinner仍在加载!
+[2017-11-12 21:03:01]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-12 21:03:07]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-12 21:05:42]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-12 21:05:48]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-12 21:06:05]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-12 21:06:14]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-13 21:02:19]---进入Beop首页超过24.60秒spinner仍在加载!
+[2017-11-14 07:02:56]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-15 07:05:57]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-15 07:05:58]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-15 07:06:00]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-17 09:32:55]---进入Beop首页超过26.45秒spinner仍在加载!
+[2017-11-17 21:00:50]---funcname: loginInitial_ChromeMessage: session not created exception
+from disconnected: unable to connect to renderer
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-18 21:01:58]---进入Beop首页超过26.45秒spinner仍在加载!
+[2017-11-20 07:21:20]---funcname: loginclear函数出错!详情: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-24 14:09:55]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-11-27 15:36:39]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-12-02 07:35:19]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-12-03 07:35:37]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-12-03 07:35:46]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2017-12-03 21:35:49]---funcname: loginclear函数出错!详情: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#txtName"}
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64)
+

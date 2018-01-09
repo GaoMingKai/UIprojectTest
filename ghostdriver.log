@@ -1,0 +1,12 @@
+[INFO  - 2017-09-25T02:27:57.001Z] GhostDriver - Main - running on port 52713
+[INFO  - 2017-09-25T02:27:58.074Z] Session [24fc9250-a199-11e7-92d9-41f28bf05f8d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-09-25T02:27:58.074Z] Session [24fc9250-a199-11e7-92d9-41f28bf05f8d] - page.customHeaders:  - {}
+[INFO  - 2017-09-25T02:27:58.074Z] Session [24fc9250-a199-11e7-92d9-41f28bf05f8d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-09-25T02:27:58.074Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 24fc9250-a199-11e7-92d9-41f28bf05f8d
+[INFO  - 2017-09-25T02:32:57.004Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-09-25T02:37:57.009Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-09-25T02:42:57.010Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-09-25T02:47:57.010Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-09-25T02:52:57.010Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-09-25T02:57:57.414Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-09-25T02:57:57.415Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '24fc9250-a199-11e7-92d9-41f28bf05f8d', because windowless
